@@ -49,21 +49,56 @@ stylesheet main.css
 
 	/* font */
 
-body {
+	body {
 	font-family: "Roboto", 
-}
-h1 {
-	/* Utilisera Roboto.ttf */
-	font-style: normal;
-	font-weight: bold;
-}
-h2 {
-	/* Utilisera Roboto.ttf */
-	font-style: italic;
+	}
+
+/* Utilisera Roboto.ttf */
+	h1 {
+		font-style: normal;
+		font-weight: bold;
+	}
+
+/* Utilisera Cavia Dreams.ttf */
+	h2 {
+		font-family: "Caviar-Dreams"
+		font-style: Bold;
 	font-weight: normal;
-}
-h3 {
-	/* Utilisera Roboto.ttf */
+	}
+
+/* Utilisera Roboto.ttf */
+	h3 {
 	font-style: italic;
 	font-weight: bold;
+	}
+
+/* section haut1 */
+
+.haut1 {
+	
+	background-image: url("../../images/banner_bg.jpg");
+	background-repeat: repeat, no-repeat;
+	background-size: auto, 100% 100%;
+}
+
+.titre1 h1 {
+
+	display: inline-block;
+}
+
+
+.menu1 {
+	background-color: rgba(81, 95, 103, 70%);
+	display: inline-block;
+}
+
+.menu1 li {
+	display: inline-block;
+}
+
+.haut {
+	text-align: center;
+	
+}
+
 

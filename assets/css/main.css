@@ -81,24 +81,43 @@ stylesheet main.css
 	background-size: auto, 100% 100%;
 }
 
-.titre1 h1 {
+.titre1 a img {
 
-	display: inline-block;
+	display: inline-flex;
 }
 
 
 .menu1 {
 	background-color: rgba(81, 95, 103, 70%);
-	display: inline-block;
+	display: inline-flex;
 }
 
 .menu1 li {
-	display: inline-block;
+	display: inline-flex;
 }
 
 .haut {
 	text-align: center;
-	
 }
 
+/*.photo {
+	display: inline-flex;
+}*/
 
+.titre h2 {
+	display: inline-flex;
+}
+
+.menu2 {
+	display: inline-flex;
+
+}
+.menu2 li {
+	display: inline-flex;
+}
+
+.images {
+	display: inline-flex;
+	margin: 5%;
+	justify-content: flex-start;
+}

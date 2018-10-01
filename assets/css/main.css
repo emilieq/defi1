@@ -49,11 +49,21 @@ stylesheet main.css
 
 	/* font */
 
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Roboto Thin'), local('Roboto-Thin'), url(fonts/Roboto) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+body {
+	font-family: "Roboto", 
 }
+h1 {
+	/* Utilisera Roboto.ttf */
+	font-style: normal;
+	font-weight: bold;
+}
+h2 {
+	/* Utilisera Roboto.ttf */
+	font-style: italic;
+	font-weight: normal;
+}
+h3 {
+	/* Utilisera Roboto.ttf */
+	font-style: italic;
+	font-weight: bold;
 

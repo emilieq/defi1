@@ -48,7 +48,13 @@ stylesheet main.css
 	}
 
 	/* font */
-
+	* {
+		font-family: "Roboto";
+	}
+@font-face{
+	font-family: "Caviar-Dreams";
+	src: url(font/Caviar-Dreams/CaviarDreams.ttf) format('truetype');
+}
 	body {
 	font-family: "Roboto", 
 	}

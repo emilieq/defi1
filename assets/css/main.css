@@ -129,3 +129,151 @@ stylesheet main.css
 	justify-content: space-around;
 
 }
+
+/*--contact--*/
+.contact{
+    width: 100%;
+    background: url(../images/footer_bg.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 6% 0;
+}
+.commentform label, .contactform_bottom label {
+    display: block;
+    font-size:0.95em;
+    color: #fff;
+    text-transform:uppercase;
+    font-weight:400;
+}
+.commentform input[type="text"] {
+    padding:20px;
+    width:85%;
+    color: #FFF;
+    font-size: 0.85em;
+    border:2px solid #fff;
+    background:none;
+    outline: none;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+p.comment-form-author{
+    margin-bottom:8%;
+}
+.address p ,.address p  a{
+    font-size: 0.85em;
+    line-height: 2em;
+    color:#fff;
+}
+.address p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.address p span:hover {
+    text-decoration: none;
+}
+p.m_13{
+    color:#fff;
+    line-height:1.8em;
+    font-size:0.85em;
+    margin-bottom: 8%;
+}
+.commentform_desc1{
+    display:none;
+}
+.contactform_bottom{
+    margin:0 15px;
+    padding-top: 2%;
+}
+.contactform_bottom textarea {
+    padding:20px;
+    display: block;
+    width:100%;
+    background:none;
+    border:2px solid #fff;
+    outline: none;
+    color:#fff;
+    font-size: 0.85em;
+    font-family: 'Roboto', sans-serif;
+    -webkit-appearance: none;
+    resize: none;
+    height:200px;
+}
+.contactform_bottom input[type="submit"] {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 20px 160px;
+    text-transform: uppercase;
+    background: #4BCAFF;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-top: 5%;
+}
+.contactform_bottom input[type="submit"]:hover {
+    background:#fff;
+    color:#4BCAFF;
+}
+.footer-bottom{
+    background:#353f47;
+    padding:6% 0;
+}
+.copy{
+    float:right;
+}
+.copy p{
+    color:#536169;
+    font-size:0.85em;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.copy p a{
+    color:#fff;
+}
+ul.footer-nav{
+    float:left;
+    list-style:none;
+    color:#536169;
+    padding:0;
+}
+ul.footer-nav li:first-child{
+    margin-left: 0;
+}
+ul.footer-nav li{
+    display:inline-block;
+    margin:0 10px;
+}
+ul.footer-nav li a{
+    color:#536169;
+    font-size:0.85em;
+    font-weight:500;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+ul.footer-nav li a:hover{
+    color:#fff;
+}
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width:40px;
+    height:40px;
+    border: none;
+    text-indent: 100%;
+    background: url(../images/top-move.png) no-repeat right top;
+}

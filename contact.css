@@ -1,15 +1,32 @@
+@font-face{
+    font-family: 'Caviar-Dreams';
+    src: url(fonts/Caviar-Dreams/CaviarDreams.ttf) format('truetype');
+}
+
+body {
+ font-family: "Roboto",
+    }
+
+
+
 /*--contact--*/
+.contactform {
+    background-image: url("images/footer_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #contact
 {
     margin-left:15%;
     margin-right: 5%;
-    background: black;
     font-family: "Caviar-Dreams",verdana,sans serif;
     font-style: normal;
     font-weight: normal;
+
 }
 .contact {
-  
+
 }
 
 .contact-left {
@@ -34,7 +51,7 @@
 
 .contact-right p {
     font-size: 1em;
-    color: #555;
+    color: #fff;
     margin: 1em 0 3em;
     font-weight: 500;
 }
@@ -45,17 +62,17 @@
 
 .address p {
     font-size: 1.1em;
-    color: #000;
+    color: #fff;
     margin-top: 1em;
     font-weight: 500;
 }
 
 .address p a {
-    color: #000;
+    color: #fff;
 }
 
 .address p a:hover {
-    color: #79302a;
+    color: #fff;
 }
 
 form.form_w3layouts {
@@ -76,9 +93,7 @@ form.form_w3layouts {
 
 }
 
-.contact-form label[type="text"],
-.contact-form label[type="email"],
-.contact-form label[type="message"], {
+.contact-form label {
     background: none;
     font-size: 1em;
     margin-top:3em;
@@ -99,9 +114,11 @@ form.form_w3layouts {
     -webkit-appearance: none;
     float: none;
 }
-
-.contact-form input[type="submit"],
-.contact-form input[type="reset"] {
+.texte-contact {
+    font-family: 'Roboto-light';
+    display: flex;   
+}
+.contact-form input[type="submit"]{
     border: none;
     outline: none;
     color: #fff;
@@ -109,7 +126,7 @@ form.form_w3layouts {
     font-size: 1em;
     margin: 1em 1em 0 0;
     -webkit-appearance: none;
-    background: #272121;
+    background: #51a6db;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -117,7 +134,7 @@ form.form_w3layouts {
 
 .contact-form input[type="submit"]:hover,
 {
-    background: #e01414;
+    background:#51a6db;
     color: #fff;
     display: block;
     margin-top:2em; 
@@ -128,7 +145,7 @@ form.form_w3layouts {
 form label {
 display: block;
 font-weight: 400;
-color: #363636;
+color: #fff;
 margin: 0 0 1em 0;
 }
 
@@ -139,7 +156,7 @@ form select,
 form textarea {
 -webkit-appearance: none;
 border: 0;
-background: #F4F4F4;
+background: #fff;
 padding: 0.75em;
 width: 100%;
 -moz-transition: background-color .25s ease-in-out;
@@ -164,17 +181,17 @@ line-height: 1.35em;
 }
 
 form ::-webkit-input-placeholder {
-color: #999;
+color: #fff;
 }
 
 form :-moz-placeholder {
-color: #999;
+color: #fff;
 }
 
 form ::-moz-placeholder {
-color: #999;
+color: #fff;
 }
 
 form :-ms-input-placeholder {
-color: #999;
+color: #fff;
 }

@@ -6,19 +6,23 @@ body{
 	background-size: cover;
 	background-position: center;
 	font-family: "roboto";
+	background-color: black;
+
 
 }
 .contact-title {
 	margin-top:100px;
-	color:black;
+	color:white;
 	text-transform:uppercase;
 	transition:all 4s ease-in-out;
+	font-weight: lighter;
 
 
 }
 
 .contact-title h2{
 	font-size:2em;
+	font-weight: lighter;
 
 }
 
@@ -33,12 +37,14 @@ form{
 	color:black;
 	font-size:18px;
 	margin-bottom:16px; 
-	border:solid black;
+	border:solid white ;
 	
 }
 input{
 	height:40px;
 	margin-bottom: 5px;
+	border:solid;
+	background-color: transparent;
 }
 form .submit{
 	background:rgb(75,202,255); 
@@ -63,11 +69,12 @@ form .submit:hover{
 
 }
 label{
-	color:rgb(75,202,255);
+	color:white;
 	margin-bottom: 5px;
 }
 .col-md-6{
 	float:right;
 	width:55%;
-
+	color:white;
+ 	 line-height:25px;
 }

@@ -5,7 +5,7 @@ body{
 	text-align: left;
 	background-size: cover;
 	background-position: center;
-	font-family: "roboto";
+	font-family: "Caviar-Dreams","verdana";
 	background-color: black;
 
 
@@ -71,10 +71,11 @@ form .submit:hover{
 label{
 	color:white;
 	margin-bottom: 5px;
+
 }
 .col-md-6{
 	float:right;
 	width:55%;
 	color:white;
- 	 line-height:25px;
+ 	line-height:25px;
 }
